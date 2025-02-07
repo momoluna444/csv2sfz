@@ -1,0 +1,12 @@
+[package]
+name = "csv2sfz-cli"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+csv2sfz = { path = "../" }
+clap = { version = "4.*", features = ["derive"] }
+
+[[bin]]
+name = "csv2sfz"
+path = "src/main.rs"

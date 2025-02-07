@@ -1,0 +1,5 @@
+target
+.direnv
+.envrc
+shell.nix
+Cargo.lock

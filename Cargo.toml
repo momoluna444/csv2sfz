@@ -1,0 +1,22 @@
+[package]
+name = "csv2sfz"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+regex = "1.*"
+globset = "0.4.*"
+csv = "1.*"
+rayon = "1.*"
+indexmap = { version = "2.*", features = ["std", "rayon"] }
+mexprp = { version = "0.*", default-features = false }
+derive_more = { version = "2.*", features = ["from"] }
+
+[lib]
+name = "csv2sfz"
+crate-type = ["cdylib", "rlib"]
+
+[workspace]
+members = [
+    "cli",
+]
