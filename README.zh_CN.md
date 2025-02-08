@@ -140,7 +140,7 @@ cargo build --release --all
 |--|--|--|
 |\<region\>|./Bass_k{50,60,70}.wav|1|
 ||./Bass_k[1-6]0.wav|2|
-|\<region\>|// ./Bass_k{50,60}.wav|1|
+|\<region\>|// ./Bass_k{50,60,70}.wav|1|
 ||// ./Bass_k[1-6]0.wav|2|
 
 ```c
