@@ -1,7 +1,10 @@
 [package]
 name = "csv2sfz-cli"
+repository = "https://github.com/momoluna444/csv2sfz"
+description = "Make SFZ with your favorite spreadsheet GUI."
 version = "0.1.0"
-edition = "2024"
+edition = "2021"
+license = "MIT"
 
 [dependencies]
 csv2sfz = { path = "../" }
