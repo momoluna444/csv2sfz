@@ -1,7 +1,7 @@
 # csv2sfz 
 
 <p dir="rtl">
-  English / <a href="https://github.com/momoluna444/csv2sfz/blob/main/README.zh_CN.md">中文</a>
+  English / <a href="https://github.com/momoluna444/csv2sfz/blob/master/README.zh_CN.md">中文</a>
 </p>
 
 csv2sfz provides a CSV-based workflow for creating SFZ files. It allows you to manage SFZ data within any spreadsheet GUI, process the data efficiently using glob patterns and math expressions, and easily convert it into SFZ format.
