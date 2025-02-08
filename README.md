@@ -178,7 +178,9 @@ Non-column title cells accept any string as input and support math expressions. 
 - `min(a,b)`: Minimum of `a` and `b`.
 - `sat(x)`: Saturates `x` within the range `[0,1]`.
 - `vsat(x)`: Saturates `x` within the range `[0,127]`.
-- `nl(x,k=-2)`: A nonlinear function for scaling a linear input in the interval `[0,1]`. When `k` is negative, smaller values of `k` cause the output to cluster more densely toward the `1` end of the range. Conversely, when `k` is positive, larger values of `k` result in outputs that are more densely packed near the `0` end. The default value for `k` is `-2`, and the function is defined by the following formula: $$ f(x,k)=\frac{2^{k \cdot x} - 1}{2^{k} - 1}$$
+- `nl(x,k=-2)`: A nonlinear function for scaling a linear input in the interval `[0,1]`. When `k` is negative, smaller values of `k` cause the output to cluster more densely toward the `1` end of the range. Conversely, when `k` is positive, larger values of `k` result in outputs that are more densely packed near the `0` end. The default value for `k` is `-2`, and the function is defined by the following formula:
+
+$$ f(x,k)=\frac{2^{k \cdot x} - 1}{2^{k} - 1} $$
 
 Expressions can also use parameters declared in the `@sample` file names. The declaration format is `name` `value`, with no separator between the name and value. Parameter names can only include letters, and values can be integers or floats. Multiple parameters are separated by `_`.
 
