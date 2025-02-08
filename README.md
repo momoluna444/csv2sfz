@@ -47,7 +47,7 @@ cargo build --release --all
 ./csv2sfz /path/to/csv-folder
 
 # Windows
-.\csv2sfz.exe /path/to/csv-folder
+.\csv2sfz.exe X:\path\to\csv-folder
 ```
 
 ## CSV Usage
